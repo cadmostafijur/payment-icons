@@ -1,0 +1,24 @@
+{
+  "name": "payment-icons-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo for payment-icons library and documentation site",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/docs",
+    "build": "npm run build --workspace packages/payment-icons && npm run build --workspace apps/docs",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "keywords": [
+    "payment",
+    "icons",
+    "react",
+    "svg",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT"
+}

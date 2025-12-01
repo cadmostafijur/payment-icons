@@ -1,0 +1,40 @@
+{
+  "name": "payment-icons",
+  "version": "0.1.0",
+  "description": "React SVG icon library for payment methods",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "payment",
+    "visa",
+    "mastercard",
+    "paypal",
+    "stripe"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
