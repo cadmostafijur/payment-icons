@@ -2,12 +2,21 @@
 
 A modern monorepo containing a reusable React SVG icon library for payment methods and a Next.js documentation/demo site.
 
+## ✨ Features
+
+- 🎨 **Multiple Icon Styles**: Flat, Mono, Outline, and Single variants
+- 📦 **23 Payment Methods**: Visa, Mastercard, Amex, PayPal, and more
+- ⚡ **TypeScript Support**: Full type safety with PaymentBrand and PaymentIconStyle types
+- 🎯 **Tree-shakable**: Optimized bundle sizes with ESM/CJS builds
+- 🎪 **Demo Site**: Interactive documentation with all icons and styles
+
 ## 📦 Structure
 
 ```
 payment-icons-monorepo/
 ├── packages/
 │   └── payment-icons/          # React icon library (publishable to npm)
+│       └── src/svg/            # Raw SVG files in 4 styles (flat/mono/outline/single)
 └── apps/
     └── docs/                   # Next.js 14 demo/docs app
 ```
@@ -68,13 +77,19 @@ export function CheckoutIcons() {
 }
 ```
 
-**Generic component:**
+**Generic component with styles:**
 
 ```tsx
 import { PaymentIcon } from "payment-icons";
 
-export function DynamicIcon() {
-  return <PaymentIcon brand="visa" size={40} />;
+export function StyledIcons() {
+  return (
+    <div style={{ display: "flex", gap: 8 }}>
+      <PaymentIcon brand="visa" iconStyle="flat" size={40} />
+      <PaymentIcon brand="paypal" iconStyle="mono" size={40} />
+      <PaymentIcon brand="mastercard" iconStyle="outline" size={40} />
+    </div>
+  );
 }
 ```
 

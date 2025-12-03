@@ -96,6 +96,7 @@ All icons accept standard SVG props:
 | American Express | `Amex` | `"amex"` |
 | UnionPay | `UnionPay` | `"unionpay"` |
 | PayPal | `Paypal` | `"paypal"` |
+| PayPal Credit | `PaypalCredit` | `"paypal-credit"` |
 | Stripe | `Stripe` | `"stripe"` |
 | bKash | `Bkash` | `"bkash"` |
 | Nagad | `Nagad` | `"nagad"` |
@@ -103,6 +104,16 @@ All icons accept standard SVG props:
 | Apple Pay | `ApplePay` | `"apple-pay"` |
 | Google Pay | `GooglePay` | `"google-pay"` |
 | Bitcoin | `Bitcoin` | `"bitcoin"` |
+| Discover | `Discover` | `"discover"` |
+| JCB | `Jcb` | `"jcb"` |
+| Diners Club | `DinersClub` | `"diners-club"` |
+| Maestro | `Maestro` | `"maestro"` |
+| Venmo | `Venmo` | `"venmo"` |
+| Cash App | `CashApp` | `"cash-app"` |
+| Klarna | `Klarna` | `"klarna"` |
+| Afterpay | `Afterpay` | `"afterpay"` |
+| Affirm | `Affirm` | `"affirm"` |
+| Sofort | `Sofort` | `"sofort"` |
 
 ## 🔧 TypeScript
 
