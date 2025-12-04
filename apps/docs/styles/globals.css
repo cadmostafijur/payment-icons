@@ -248,12 +248,19 @@ main {
 }
 
 .btn-secondary:hover {
-  background-color: white;
+  background-color: rgba(51, 65, 85, 0.9);
+  color: #f1f5f9;
+  border-color: rgba(71, 85, 105, 0.8);
 }
 
 .btn-ghost {
   background-color: transparent;
-  color: #4b5563;
+  color: #cbd5e1;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(51, 65, 85, 0.3);
+  color: #f1f5f9;
 }
 
 .hero-meta {
