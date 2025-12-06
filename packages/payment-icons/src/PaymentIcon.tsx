@@ -25,4 +25,6 @@ const svgContent: Record<string, { content: string; viewBox: string }> = {
 <path d="M0 0 C0.66 0.33 1.32 0.66 2 1 C-0.31 3.31 -2.62 5.62 -5 8 C-5 5 -5 5 -2.5 2.3125 C-1.675 1.549375 -0.85 0.78625 0 0 Z " fill="#C2C3C3" transform="translate(1063,1402)"/>
 <path d="M0 0 C0.66 0.33 1.32 0.66 2 1 C-0.31 3.31 -2.62 5.62 -5 8 C-5 5 -5 5 -2.5 2.3125 C-1.675 1.549375 -0.85 0.78625 0 0 Z " fill="#C2C3C3" transform="translate(1063,1402)"/>
 <path d="" fill="#DEDFE0" transform="translate(0,0)"/>
-</svg>
+</svg>`,
+  },
+};
